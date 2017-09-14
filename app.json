@@ -1,11 +1,10 @@
 {
 	"expo": {
 		"sdkVersion": "20.0.0",
-		"icon": "http://nativebase.io/assets/img/front-page-icon.png",
 		"slug": "Native-starter-Kit",
 		"loading": {
 			"hideExponentText": false,
-			"icon": "./assets/loading.png"
+			"icon": "./src/assets/loading.png"
 		},
 		"orientation": "portrait",
 		"primaryColor": "#cccccc",
