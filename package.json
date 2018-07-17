@@ -15,7 +15,7 @@
     "flow-bin": "0.62.0",
     "flow-typed": "2.2.3",
     "husky": "0.14.3",
-    "jest-expo": "^24.0.0",
+    "jest-expo": "^28.0.0",
     "react-native-scripts": "1.8.1",
     "react-test-renderer": "16.2.0"
   },
@@ -36,13 +36,13 @@
     ]
   },
   "dependencies": {
-    "expo": "^24.0.0",
+    "expo": "^28.0.0",
     "lodash": "4.17.4",
-    "mobx": "3.4.1",
-    "mobx-react": "4.3.5",
+    "mobx": "3.6.2",
+    "mobx-react": "4.4.3",
     "native-base": "2.3.5",
-    "react": "16.2.0",
-    "react-native": "0.51.0",
-    "react-navigation": "1.0.0-beta.21"
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "react-navigation": "~2.3.1"
   }
 }
