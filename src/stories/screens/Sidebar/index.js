@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Text, Container, List, ListItem, Content } from "native-base";
-import { NavigationActions } from "react-navigation";
+import { NavigationActions, StackActions } from "react-navigation";
 
 const routes = [
 	{
@@ -21,7 +21,7 @@ export interface Props {
 	navigation: any,
 }
 export interface State {}
-const resetAction = NavigationActions.reset({
+const resetAction = StackActions.reset({
 	index: 0,
 	actions: [NavigationActions.navigate({ routeName: "Login" })],
 });

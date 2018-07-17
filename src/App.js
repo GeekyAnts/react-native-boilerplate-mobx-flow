@@ -1,13 +1,13 @@
 // @flow
 import React from "react";
-import { StackNavigator, DrawerNavigator } from "react-navigation";
+import { createStackNavigator, createDrawerNavigator } from "react-navigation";
 import { Root } from "native-base";
 import Login from "./container/LoginContainer";
 import Home from "./container/HomeContainer";
 import BlankPage from "./container/BlankPageContainer";
 import Sidebar from "./container/SidebarContainer";
 
-const Drawer = DrawerNavigator(
+const Drawer = createDrawerNavigator(
 	{
 		Home: { screen: Home },
 	},
@@ -17,7 +17,7 @@ const Drawer = DrawerNavigator(
 	}
 );
 
-const App = StackNavigator(
+const App = createStackNavigator(
 	{
 		Login: { screen: Login },
 		BlankPage: { screen: BlankPage },
